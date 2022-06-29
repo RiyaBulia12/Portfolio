@@ -1,6 +1,7 @@
 :root {
   --main-bg-color: #6070ff;
-  --content-color: #172b4d;
+  --title-color: #172b4d;
+  --sub-title-color : #344563;
   --media-color: #7f8cff;
   --main-font-family: 'Poppins', sans-serif;
 }
@@ -42,18 +43,15 @@ body {
   padding: 7rem 1.5rem;
 }
 
-.intro,
-.about {
-  color: var(--content-color);
-}
-
 .intro {
+  color: var(--title-color);
   font-size: 2.5rem;
   font-weight: 700;
   line-height: 52px;
 }
 
 .about {
+  color: var(--sub-title-color);
   font-size: 1rem;
   font-weight: 400;
   line-height: 24px;
