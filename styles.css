@@ -1,9 +1,23 @@
 :root {
   --main-bg-color: #6070ff;
+  --main-font-family: 'Poppins', sans-serif;
 }
 
-h1 {
-  font-family: 'Poppins', sans-serif;
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 4px;
+}
+
+.logo {
+  font-family: var(--main-font-family);
   color: var(--main-bg-color);
   font-size: 18px;
+  padding: 10px 12px;
+}
+
+.menu {
+  padding: 8px;
 }
