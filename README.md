@@ -1,8 +1,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Welcome to Riya's Portfolio
 
-> Welcome to my Portfolio
+## About Me
+> I’m a software developer! I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
 
 
 ## Built With
@@ -13,6 +14,7 @@
 - Package Manager: Node, NPM
 - Template Used: Figma Template
 
+## Project Setup
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
@@ -21,19 +23,46 @@ To get a local copy up and running follow these simple example steps.
 - Make sure Nodejs and NPM is installed in your system for linters
 
 ### Setup
-- git clone the repo in your local machine
-- Open terminal and cd into project
-- To check linters run the following command:
-   - npm install --save-dev hint@7.x (Install Webhint)
-   - npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x (Install StyleLint)
-   - npx stylelint "**/*.{css,scss}" (Check CSS Linters Error)
-   - npx stylelint "**/*.{css,scss}" --fix (Fix teh  linters error, if present)
-   - npx hint . (check HTML Linters error)
-- Open index.html file in your browser to see the output
+1. Clone the repo in your local machine:
+```bash
+git clone https://github.com/RiyaBulia12/Portfolio.git
+```
+2. Open terminal and cd into project
+```bash
+cd Portfolio
+```
+3. Open the index.html in your brower:
+```bash
+open index.html
+```
+
+### Install
+> To check linters run the following command:
+1. Install WebHint:
+```bash
+npm install --save-dev hint@7.x
+```
+2. Install StyleLint
+```bash
+npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x 
+```
+## Check Linters Error
+1. To check CSS or SCSS linters error:
+```bash
+npx stylelint "**/*.{css,scss}"
+```
+2. To fix CSS or SCSS linters error:
+```bash
+npx stylelint "**/*.{css,scss}" --fix
+```
+3. To check HTML linters error
+```bash
+npx hint .
+```
 
 ## Authors
 
-👤 **Author1**
+👤 **Riya Bulia**
 
 - GitHub: [@RiyaBulia12](https://github.com/RiyaBulia12)
 - Twitter: [@Rbulia_original](https://twitter.com/@rbulia_original)
