@@ -213,4 +213,10 @@ ul {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.03em;
+  transition: color 0.1s, background-color 0.1s;
+}
+
+.view-btn:hover {
+  color: var(--white-color);
+  background-color: var(--btn-primary-color);
 }
