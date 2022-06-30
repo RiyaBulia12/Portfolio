@@ -10,6 +10,7 @@
   --tags-bg-color: #ebebff;
   --btn-primary-color: #396df2;
   --white-color: #fff;
+  --portfolio-bg-color: #E5E5E5;
 }
 
 body {
@@ -55,10 +56,8 @@ body {
   row-gap: 88px;
 }
 
-.section-conatiner {
+.bio {
   padding: 7.125rem 1.5rem;
-  display: flex;
-  flex-direction: column;
 }
 
 .intro {
@@ -129,7 +128,8 @@ ul {
 .project-title h4 {
   margin: 0;
   padding: 0;
-  font-size: 32px;
+  font-size: 33px;
+  font-weight: 700;
 }
 
 .project-info ul {
@@ -195,6 +195,7 @@ ul {
   margin-right: 8px;
   padding: 4px 12px;
   border-radius: 8px;
+  color: var(--main-bg-color);
 }
 
 .btn-container {
