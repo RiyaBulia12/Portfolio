@@ -42,7 +42,7 @@ body {
 }
 
 .main-content {
-  background-image: url('/images/background.png');
+  background-image: url('images/background.png');
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
