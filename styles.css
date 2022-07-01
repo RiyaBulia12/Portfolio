@@ -228,8 +228,8 @@ ul {
 
 .about-myself {
   display: flex;
-    flex-direction: column;
-    row-gap: 12px;
+  flex-direction: column;
+  row-gap: 12px;
 }
 
 .skill-title {
