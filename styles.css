@@ -15,6 +15,10 @@
   --skills-background-color: #f7f7f9;
 }
 
+html * {
+  font-family: "Poppins", sans-serif;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -282,4 +286,33 @@ ul {
 .contact-form {
   flex-direction: column;
   gap: 20px;
+  width: 100%;
+}
+
+.contact-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 44px;
+}
+
+.contact-desc {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  text-align: center;
+}
+
+input {
+  height: 18px;
+}
+
+form input, textarea {
+  border-radius: 8px;
+  border: solid 1px white;
+  padding: 15px;
+}
+
+textarea {
+  height: 140px;
 }
