@@ -68,6 +68,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 12px;
+  padding-bottom: 0;
 }
 
 .intro {
@@ -285,7 +286,7 @@ ul {
 
 .contact-form {
   flex-direction: column;
-  gap: 20px;
+  gap: 12px;
   width: 100%;
 }
 

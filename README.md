@@ -71,7 +71,13 @@ npx hint .
 👤 **Petro Lesapiti**
 - GitHub: [@Loltolo-Lesapiti](https://github.com/Loltolo-Lesapiti)
 - LinkedIn: [@petrolesapiti](https://linkedin.com/in/linkedinhandle)
+
+
+👤 **Petro Lesapiti**
+- GitHub: [@Loltolo-Lesapiti](https://github.com/Loltolo-Lesapiti)
+- LinkedIn: [@petrolesapiti](https://linkedin.com/in/linkedinhandle)
 ## 🤝 Contributing
+
 
 Contributions, issues, and feature requests are welcome!
 
