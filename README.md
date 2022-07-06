@@ -68,6 +68,9 @@ npx hint .
 - Twitter: [@Rbulia_original](https://twitter.com/@rbulia_original)
 - LinkedIn: [Riya-Bulia](https://linkedin.com/in/riya-bulia)
 
+👤 **Petro Lesapiti**
+- GitHub: [@Loltolo-Lesapiti](https://github.com/Loltolo-Lesapiti)
+- LinkedIn: [@petrolesapiti](https://linkedin.com/in/linkedinhandle)
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
