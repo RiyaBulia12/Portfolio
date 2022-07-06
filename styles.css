@@ -294,6 +294,7 @@ ul {
   font-weight: bold;
   font-size: 40px;
   line-height: 44px;
+  margin-bottom: 0;
 }
 
 .contact-desc {
@@ -301,6 +302,7 @@ ul {
   line-height: 28px;
   font-weight: 400;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 input {
