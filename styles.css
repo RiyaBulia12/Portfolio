@@ -32,7 +32,7 @@ body {
 .header {
   align-items: center;
   justify-content: space-between;
-  margin: 4px 12px;
+  padding: 4px 12px;
 }
 
 .logo {
@@ -50,12 +50,16 @@ body {
   cursor: pointer;
 }
 
-.menu-icon {
-  padding: 8px 12px;
+.menu-container {
+  padding: 8px;
+}
+
+.menu-option {
+  display: none;
 }
 
 .main-content {
-  background-image: url('../images/background.png');
+  background-image: url('images/background.png');
   background-repeat: no-repeat;
   background-size: contain;
   flex-direction: column;
@@ -64,6 +68,10 @@ body {
 
 .bio {
   padding: 7.125rem 1.5rem 0;
+}
+
+.bio,
+.about-container {
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 12px;
@@ -71,6 +79,7 @@ body {
 }
 
 .intro {
+  width: 75%;
   color: var(--title-color);
   font-size: 2.5rem;
   font-weight: 700;
@@ -80,7 +89,7 @@ body {
 
 .bio-desc {
   color: var(--sub-title-color);
-  font-size: 1rem;
+  font-size: 0.95rem;
   font-weight: 400;
   line-height: 24px;
   margin: 0;
@@ -94,7 +103,7 @@ body {
 }
 
 .social-media-content {
-  padding: 12px 0;
+  padding: 16px 0;
   margin: 0;
 }
 
@@ -123,19 +132,16 @@ ul {
 
 .project-container {
   display: grid;
-  grid-template-rows: auto 1fr;
   border: 1px solid var(--portfolio-border-color);
   border-radius: 16px;
   padding: 16px;
+  gap: 8px;
   background-color: white;
 }
 
 .about-project {
   flex-direction: column;
-}
-
-.project-title {
-  margin: 12px 0;
+  gap: 12px;
 }
 
 .project-title h4 {
@@ -192,11 +198,15 @@ ul {
   margin: 0;
 }
 
+.tags {
+  margin-bottom: 12px;
+}
+
 .tags ul {
   justify-content: flex-start;
   align-items: flex-start;
   padding: 0;
-  margin-bottom: 1.5rem;
+  margin: 0;
 }
 
 .tags ul li {
@@ -230,9 +240,13 @@ ul {
   background-color: var(--btn-primary-color);
 }
 
+.about-container {
+  padding: 1.5rem;
+}
+
 .about-myself {
   flex-direction: column;
-  row-gap: 12px;
+  gap: 12px;
 }
 
 .skill-title {
@@ -278,14 +292,20 @@ ul {
 .contact-container {
   background-color: var(--main-bg-color);
   border-top-left-radius: 80px;
+  flex-direction: column;
+  color: var(--white-color);
+  align-items: center;
+}
+
+.contact-subcontainer {
   background-image: url(images/contact-background.png);
   background-position: top right;
   background-size: contain;
   background-repeat: no-repeat;
+  padding: 100px 24px;
   flex-direction: column;
-  color: var(--white-color);
+  justify-content: center;
   align-items: center;
-  padding: 24px;
 }
 
 .contact-form {
@@ -300,6 +320,7 @@ ul {
   font-size: 40px;
   line-height: 44px;
   margin-bottom: 0;
+  text-align: center;
 }
 
 .contact-desc {

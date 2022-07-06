@@ -5,7 +5,8 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width initial-scale=1.0">
       <title>My Portfolio</title>
-      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" type="text/css" href="styles.css">
+      <link rel="stylesheet" type="text/css" href="desktop.css" />
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -16,8 +17,13 @@
          <div class="logo">
             <a class="logo-text" href="#">My Logo</a>
          </div>
-         <nav class="menu-icon">
-            <img src="images/icons/menu.png" alt="menu-button">
+         <nav class="menu-container">
+            <img class="menu-icon" src="images/icons/menu.png" alt="menu-button">
+            <ul class="menu-option">
+               <li>Portfolio</li>
+               <li>About</li>
+               <li>Contact</li>
+            </ul>
          </nav>
       </header>
 
@@ -61,9 +67,9 @@
 
          <section class="work-card">
             <div class="project-container">
-               <div class="project-img">
+               <div class="project-img-container">
                   <a href="#">
-                     <img src="images/portfolio/tonic-project.png" alt="tonic-project" class="project-img">
+                     <img src="images/project/tonic-project.png" alt="tonic-project" class="project-img">
                   </a>
                </div>
                <div class="about-project flex">
@@ -96,9 +102,9 @@
             </div>
 
             <div class="project-container">
-               <div class="project-img">
+               <div class="project-img-container">
                   <a href="#">
-                     <img src="images/portfolio/multi-post-stories-project.png" alt="multi-post-stories-project"
+                     <img src="images/project/multi-post-stories-project.png" alt="multi-post-stories-project"
                         class="project-img">
                   </a>
                </div>
@@ -132,9 +138,9 @@
             </div>
 
             <div class="project-container">
-               <div class="project-img">
+               <div class="project-img-container">
                   <a href="#">
-                     <img src="images/portfolio/tonic-project-2.png" alt="tonic-project-1" class="project-img">
+                     <img src="images/project/tonic-project-2.png" alt="tonic-project-1" class="project-img">
                   </a>
                </div>
                <div class="about-project flex">
@@ -167,9 +173,9 @@
             </div>
 
             <div class="project-container">
-               <div class="project-img">
+               <div class="project-img-container">
                   <a href="#">
-                     <img src="images/portfolio/tonic-project-2.png" alt="tonic-project-1" class="project-img">
+                     <img src="images/project/tonic-project-2.png" alt="tonic-project-1" class="project-img">
                   </a>
                </div>
                <div class="about-project flex">
@@ -201,7 +207,7 @@
                </div>
             </div>
          </section>
-         <section class="bio">
+         <section class="about-container">
             <div class="about-myself flex">
                <h1 class="intro">About Myself</h1>
                <p class="bio-desc">Hello I’m a software developer! I can help you build a product , feature or website Look
@@ -281,21 +287,23 @@
                </div>
             </div>
          </section>
-         <footer class="contact-container flex">
-            <h2 class="contact-title">Contact me</h2>
-            <p class="contact-desc">If you have an application you are interested in developing, a feature that you need
+         <footer class="contact-container">
+            <section class="contact-subcontainer flex">
+               <h2 class="contact-title">Contact me</h2>
+               <p class="contact-desc">If you have an application you are interested in developing, a feature that you need
                built or a project that needs coding. I’d love to help with it </p>
-            <form class="contact-form flex" action="https://formspree.io/f/xknylojk" method="POST">
-               <input type="text" name="name" placeholder="Enter name" maxlength="30" required>
-               <span class="error-message"></span>
-               <input type="email" name="email" placeholder="Enter email" required>
-               <span class="error-message"></span>
-               <textarea name="message" maxlength="500" placeholder="Write your message here" required></textarea>
-               <span class="error-message"></span>
-               <div class="btn-container">
-                  <button class="view-btn" type="submit" name="submit">Get It Touch</button>
-               </div>
-            </form>
+               <form class="contact-form flex" action="https://formspree.io/f/xknylojk" method="POST">
+                  <input type="text" name="name" placeholder="Enter name" maxlength="30" required>
+                  <span class="error-message"></span>
+                  <input type="email" name="email" placeholder="Enter email" required>
+                  <span class="error-message"></span>
+                  <textarea name="message" maxlength="500" placeholder="Write your message here" required></textarea>
+                  <span class="error-message"></span>
+                  <div class="btn-container">
+                     <button class="view-btn" type="submit" name="submit">Get It Touch</button>
+                  </div>
+               </form>
+            </section>
          </footer>
       </main>
    </body>
