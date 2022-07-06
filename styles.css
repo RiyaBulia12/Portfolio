@@ -15,15 +15,21 @@
   --skills-background-color: #f7f7f9;
 }
 
+html * {
+  font-family: "Poppins", sans-serif;
+}
+
 body {
   padding: 0;
   margin: 0;
   font-family: var(--main-font-family);
 }
 
-.header {
+.flex {
   display: flex;
-  flex-direction: row;
+}
+
+.header {
   align-items: center;
   justify-content: space-between;
   margin: 4px 0;
@@ -53,7 +59,6 @@ body {
 .main-content {
   background-image: url('images/background.png');
   background-repeat: no-repeat;
-  display: flex;
   flex-direction: column;
   row-gap: 88px;
 }
@@ -63,6 +68,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 12px;
+  padding-bottom: 0;
 }
 
 .intro {
@@ -90,7 +96,6 @@ body {
 }
 
 .social-media-content {
-  display: flex;
   padding: 12px 0;
   margin: 0;
 }
@@ -122,7 +127,6 @@ ul {
 }
 
 .about-project {
-  display: flex;
   flex-direction: column;
 }
 
@@ -138,8 +142,6 @@ ul {
 }
 
 .project-info ul {
-  display: flex;
-  flex-direction: row;
   column-gap: 12px;
   margin: 0;
   padding: 0;
@@ -187,8 +189,6 @@ ul {
 }
 
 .tags ul {
-  display: flex;
-  flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
   padding: 0;
@@ -227,14 +227,11 @@ ul {
 }
 
 .about-myself {
-  display: flex;
   flex-direction: column;
   row-gap: 12px;
 }
 
 .skill-title {
-  display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: space-between;
   padding: 8px;
@@ -263,8 +260,6 @@ ul {
 
 .skill-content > ul > li {
   background-color: var(--skills-background-color);
-  display: flex;
-  flex-direction: row;
   border-radius: 8px;
   padding: 9px 12px;
   margin: 12px 0;
@@ -274,4 +269,54 @@ ul {
 .skill-content > ul > li > img {
   width: 48px;
   height: 48px;
+}
+
+.contact-container {
+  background-color: var(--main-bg-color);
+  border-top-left-radius: 80px;
+  background-image: url(images/contact-background.png);
+  background-position: top right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  color: var(--white-color);
+  align-items: center;
+  padding: 24px;
+}
+
+.contact-form {
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+.contact-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 44px;
+  margin-bottom: 0;
+}
+
+.contact-desc {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+input {
+  height: 18px;
+}
+
+form input,
+textarea {
+  border-radius: 8px;
+  border: solid 1px white;
+  padding: 15px;
+}
+
+textarea {
+  height: 140px;
 }
