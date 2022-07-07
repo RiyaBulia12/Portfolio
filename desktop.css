@@ -115,6 +115,10 @@
     padding: 0 5%;
   }
 
+  .skill-title h3 {
+    color: var(--skill-text-color);
+  }
+
   .contact-background-image {
     background-image: url(images/desktop-version/contact-background.png);
     padding: 80px;
