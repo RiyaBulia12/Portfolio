@@ -1,10 +1,8 @@
-@media (min-width: 768px) and (max-width: 1440px) {
+@media (min-width: 768px) {
   .header {
     padding: 1% 10%;
-  }
-
-  .main-content {
-    background-image: url('images/desktop-version/desktop-background.png');
+    position: fixed;
+    width: 80%;
   }
 
   .menu-container {
@@ -20,7 +18,7 @@
     display: flex;
     align-items: center;
     padding: 10px 12px;
-    gap: 10px;
+    gap: 30px;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
@@ -30,6 +28,7 @@
 
   .bio {
     padding: 20% 18%;
+    background-image: url('images/desktop-version/desktop-background.png');
   }
 
   .intro {
@@ -39,7 +38,7 @@
     width: 50%;
   }
 
-  .work-card {
+  .portfolio-card {
     padding: 10%;
     gap: 142px;
   }
@@ -62,6 +61,26 @@
   .project-img {
     height: 100%;
     width: 100%;
+  }
+
+  .project-container:nth-child(odd) .project-img-container {
+    order: 1;
+  }
+
+  .project-container:nth-child(1) img {
+    content: url(images/desktop-version/project-1.png);
+  }
+
+  .project-container:nth-child(2) img {
+    content: url(images/desktop-version/project-2.png);
+  }
+
+  .project-container:nth-child(3) img {
+    content: url(images/desktop-version/project-3.png);
+  }
+
+  .project-container:nth-child(4) img {
+    content: url(images/desktop-version/project-4.png);
   }
 
   .about-container {

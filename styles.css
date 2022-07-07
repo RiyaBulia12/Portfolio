@@ -1,5 +1,5 @@
 :root {
-  --main-bg-color: #6070ff;
+  --main-theme-color: #6070ff;
   --title-color: #172b4d;
   --sub-title-color: #344563;
   --media-color: #7f8cff;
@@ -12,7 +12,7 @@
   --white-color: #fff;
   --portfolio-bg-color: #e5e5e5;
   --separator-color: #dfe1e6;
-  --skills-background-color: #f7f7f9;
+  --body-background-color: #f7f7f9;
 }
 
 html * {
@@ -23,6 +23,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: var(--main-font-family);
+  background-color: var(--body-background-color);
 }
 
 .flex {
@@ -33,6 +34,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 4px 12px;
+  background-color: var(--white-color);
 }
 
 .logo {
@@ -40,7 +42,7 @@ body {
 }
 
 .logo-text {
-  color: var(--main-bg-color);
+  color: var(--main-theme-color);
   font-size: 1.125rem;
   font-weight: 700;
   text-decoration: none;
@@ -58,16 +60,22 @@ body {
   display: none;
 }
 
+.menu-option li a {
+  text-decoration: none;
+  color: #344563;
+}
+
 .main-content {
-  background-image: url('images/background.png');
-  background-repeat: no-repeat;
-  background-size: contain;
   flex-direction: column;
-  row-gap: 88px;
 }
 
 .bio {
-  padding: 7.125rem 1.5rem 0;
+  background-image: url('images/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--white-color);
+  border-bottom-left-radius: 80px;
+  padding: 7.125rem 1.5rem;
 }
 
 .bio,
@@ -75,7 +83,6 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 12px;
-  padding-bottom: 0;
 }
 
 .intro {
@@ -121,7 +128,7 @@ ul {
   cursor: pointer;
 }
 
-.work-card {
+.portfolio-card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -214,7 +221,7 @@ ul {
   margin-right: 8px;
   padding: 4px 12px;
   border-radius: 8px;
-  color: var(--main-bg-color);
+  color: var(--main-theme-color);
 }
 
 .btn-container {
@@ -223,7 +230,7 @@ ul {
 
 .view-btn {
   color: var(--btn-primary-color);
-  border: 1px solid var(--main-bg-color);
+  border: 1px solid var(--main-theme-color);
   padding: 12px;
   align-items: center;
   border-radius: 8px;
@@ -241,7 +248,9 @@ ul {
 }
 
 .about-container {
-  padding: 1.5rem;
+  padding: 7.125rem 1.5rem;
+  background-color: white;
+  border-top-right-radius: 80px;
 }
 
 .about-myself {
@@ -277,7 +286,7 @@ ul {
 }
 
 .skill-content > ul > li {
-  background-color: var(--skills-background-color);
+  background-color: var(--body-background-color);
   border-radius: 8px;
   padding: 9px 12px;
   margin: 12px 0;
@@ -290,7 +299,7 @@ ul {
 }
 
 .contact-container {
-  background-color: var(--main-bg-color);
+  background-color: var(--main-theme-color);
   border-top-left-radius: 80px;
   flex-direction: column;
   color: var(--white-color);
