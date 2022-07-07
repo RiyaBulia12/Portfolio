@@ -15,3 +15,6 @@ node_modules
 
 # Ignore test.md files
 test.md
+
+# Editors generated  files
+.vscode/*
