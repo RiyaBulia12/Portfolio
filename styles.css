@@ -138,7 +138,9 @@ ul {
 
 .social-media-icons {
   padding-right: 20px;
-  transition: all 0.5s ease-in;
+  -webkit-transition: all 500ms ease-in;
+  -moz-transition: all 500ms ease-in;
+  -o-transition: all 500ms ease-in;
 }
 
 .social-media-icons:hover,
@@ -262,7 +264,9 @@ ul {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.03em;
-  transition: color 0.1s, background-color 0.1s;
+  -webkit-transition: color 100ms, background-color 100ms;
+  -moz-transition: color 100ms, background-color 100ms;
+  -o-transition: color 100ms, background-color 100ms;
 }
 
 .view-btn:hover {
