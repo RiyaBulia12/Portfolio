@@ -16,14 +16,13 @@
   --skill-text-color: #253858;
 }
 
-html * {
-  font-family: "Poppins", sans-serif;
-}
-
-body {
+* {
   padding: 0;
   margin: 0;
   font-family: var(--main-font-family);
+}
+
+body {
   background-color: var(--body-background-color);
 }
 
@@ -98,7 +97,6 @@ body {
   font-size: 2.5rem;
   font-weight: 700;
   line-height: 52px;
-  margin: 0;
   animation: slidein 3s;
 }
 
@@ -117,19 +115,17 @@ body {
   font-size: 0.95rem;
   font-weight: 400;
   line-height: 24px;
-  margin: 0;
 }
 
 .social-media-title {
   text-transform: uppercase;
   color: var(--media-color);
   font-weight: 500;
-  margin: 0;
+  font-size: 16px;
 }
 
 .social-media-content {
   padding: 16px 0;
-  margin: 0;
 }
 
 ul {
@@ -138,6 +134,7 @@ ul {
 
 .social-media-icons {
   padding-right: 20px;
+  transition: all 500ms ease-in;
   -webkit-transition: all 500ms ease-in;
   -moz-transition: all 500ms ease-in;
   -o-transition: all 500ms ease-in;
@@ -176,17 +173,13 @@ ul {
   gap: 12px;
 }
 
-.project-title h4 {
-  margin: 0;
-  padding: 0;
+.project-title h2 {
   font-size: 33px;
   font-weight: 700;
 }
 
 .project-info ul {
   column-gap: 12px;
-  margin: 0;
-  padding: 0;
   justify-content: flex-start;
   align-items: center;
 }
@@ -225,11 +218,6 @@ ul {
   font-weight: 400;
 }
 
-.project-description p {
-  padding: 0;
-  margin: 0;
-}
-
 .tags {
   margin-bottom: 12px;
 }
@@ -237,8 +225,6 @@ ul {
 .tags ul {
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 0;
-  margin: 0;
 }
 
 .tags ul li {
@@ -264,6 +250,7 @@ ul {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.03em;
+  transition: color 100ms, background-color 100ms;
   -webkit-transition: color 100ms, background-color 100ms;
   -moz-transition: color 100ms, background-color 100ms;
   -o-transition: color 100ms, background-color 100ms;
@@ -274,6 +261,7 @@ ul {
   background-color: var(--btn-primary-color);
 }
 
+/* About Section */
 .about-container {
   padding: 7.125rem 1.5rem;
   background-color: white;
@@ -325,6 +313,7 @@ ul {
   height: 48px;
 }
 
+/* Contact Section */
 .contact-container {
   background-color: var(--main-theme-color);
   border-top-left-radius: 80px;
