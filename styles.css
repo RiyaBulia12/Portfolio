@@ -16,9 +16,9 @@
   --skill-text-color: #253858;
 }
 
- * {
-   padding: 0;
-   margin: 0;
+* {
+  padding: 0;
+  margin: 0;
   font-family: var(--main-font-family);
 }
 
