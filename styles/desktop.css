@@ -25,6 +25,11 @@
     margin: 0;
   }
 
+  .option:hover,
+  .option:focus {
+    color: var(--main-theme-color);
+  }
+
   .bio {
     padding: 20% 18%;
     background-position: bottom;
