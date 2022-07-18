@@ -6,12 +6,14 @@ const closeBtn = document.querySelector('.close-icon');
 if(menuBtn){
    menuBtn.addEventListener('click', () => {
       menuOverlay.style.cssText = `width: 100%; display: block;`;
+      document.body.overflow = 'hidden';
    })
 }
 
 if(menuOption){
    menuOption.forEach(element => {
       element.addEventListener('click', ()=>{
+          document.body.style.overflow = 'auto';
          closeNav();
       })
    });
