@@ -27,7 +27,8 @@
 
   .bio {
     padding: 20% 18%;
-    background-image: url('images/desktop-version/desktop-background.png');
+    background-position: bottom;
+    background-image: url('../images/desktop-version/desktop-background.png');
   }
 
   .intro {
@@ -67,19 +68,19 @@
   }
 
   .project-container:nth-child(1) img {
-    content: url(images/desktop-version/project-1.png);
+    content: url(../images/desktop-version/project-1.png);
   }
 
   .project-container:nth-child(2) img {
-    content: url(images/desktop-version/project-2.png);
+    content: url(../images/desktop-version/project-2.png);
   }
 
   .project-container:nth-child(3) img {
-    content: url(images/desktop-version/project-3.png);
+    content: url(../images/desktop-version/project-3.png);
   }
 
   .project-container:nth-child(4) img {
-    content: url(images/desktop-version/project-4.png);
+    content: url(../images/desktop-version/project-4.png);
   }
 
   .about-container {
@@ -119,12 +120,12 @@
   }
 
   .contact-background-image {
-    background-image: url(images/desktop-version/contact-background.png);
+    background-image: url(../images/desktop-version/contact-background.png);
     padding: 80px;
   }
 
   .contact-subcontainer {
-    background-image: url(images/desktop-version/contact-background.png);
+    background-image: url(../images/desktop-version/contact-background.png);
     padding: 80px;
   }
 

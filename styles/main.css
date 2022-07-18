@@ -75,9 +75,9 @@ body {
 }
 
 .bio {
-  background-image: url('images/background.png');
+  background-image: url('../images/background.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-color: var(--white-color);
   border-bottom-left-radius: 80px;
   padding: 7.125rem 1.5rem;
@@ -321,7 +321,7 @@ ul {
 }
 
 .contact-subcontainer {
-  background-image: url(images/contact-background.png);
+  background-image: url('../images/contact-background.png');
   background-position: top right;
   background-size: contain;
   background-repeat: no-repeat;
