@@ -36,6 +36,8 @@ body {
   justify-content: space-between;
   padding: 4px 12px;
   background-color: var(--white-color);
+  position: fixed;
+  width: 100%;
 }
 
 .logo {
@@ -56,10 +58,6 @@ body {
 
 .menu-container {
   padding: 8px;
-}
-
-.menu-option {
-  display: none;
 }
 
 .option {

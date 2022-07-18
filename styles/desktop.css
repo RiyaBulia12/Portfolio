@@ -1,15 +1,14 @@
 @media (min-width: 768px) {
   .header {
     padding: 1% 10%;
-    position: fixed;
-    width: 80%;
   }
 
   .menu-container {
     padding: 0;
   }
 
-  .menu-icon {
+  .menu-icon,
+  .close-icon {
     display: none;
   }
 

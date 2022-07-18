@@ -1,0 +1,32 @@
+@media (max-width: 768px) {
+  .menu-overlay {
+    display: none;
+    width: 0%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: #6070ff;
+    top: 0;
+    left: 0;
+  }
+
+  .menu-overlay i {
+    padding: 8px;
+    position: absolute;
+    right: 24px;
+    top: 24px;
+  }
+
+  .menu-overlay i,
+  .menu-option li a {
+    color: var(--white-color);
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .menu-option {
+    position: absolute;
+    top: 90px;
+  }
+}
