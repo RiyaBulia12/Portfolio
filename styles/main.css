@@ -35,6 +35,8 @@ body {
   justify-content: space-between;
   padding: 4px 12px;
   background-color: var(--white-color);
+  position: fixed;
+  width: 100%;
 }
 
 .logo {
@@ -57,19 +59,10 @@ body {
   padding: 8px;
 }
 
-.menu-option {
-  display: none;
-}
-
 .option {
   text-decoration: none;
   color: var(--sub-title-color);
   transition: all 0.5s ease-out;
-}
-
-.option:hover,
-.option:focus {
-  color: var(--main-theme-color);
 }
 
 .main-content {
@@ -77,9 +70,9 @@ body {
 }
 
 .bio {
-  background-image: url('images/background.png');
+  background-image: url('../images/background.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-color: var(--white-color);
   border-bottom-left-radius: 80px;
   padding: 7.125rem 1.5rem;
@@ -323,7 +316,7 @@ ul {
 }
 
 .contact-subcontainer {
-  background-image: url(images/contact-background.png);
+  background-image: url('../images/contact-background.png');
   background-position: top right;
   background-size: contain;
   background-repeat: no-repeat;
