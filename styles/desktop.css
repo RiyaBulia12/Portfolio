@@ -63,6 +63,10 @@
     margin: 0;
   }
 
+  .project-img-container {
+    padding: 0 24px;
+  }
+
   .project-img {
     height: 100%;
     width: 100%;
@@ -71,6 +75,10 @@
 
   .modal-img-size {
     height: 586px;
+  }
+
+  #footer {
+    padding: 0 24px;
   }
 
   .project-container:nth-child(odd) .project-img-container {
@@ -91,6 +99,12 @@
 
   .project-container:nth-child(4) img {
     content: url(../images/desktop-version/project-4.png);
+  }
+
+  .project-description-container {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    padding: 59px 24px;
   }
 
   .about-container {
