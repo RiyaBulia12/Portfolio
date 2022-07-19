@@ -211,6 +211,10 @@ ul {
   font-weight: 400;
 }
 
+.project-description-container {
+  padding: 12px 0;
+}
+
 .tags {
   margin-bottom: 12px;
 }
@@ -287,7 +291,7 @@ ul {
 }
 
 #footer {
-  margin: auto;
+  flex-direction: column;
 }
 
 /* About Section */
@@ -340,6 +344,10 @@ ul {
 .skill-content > ul > li > img {
   width: 48px;
   height: 48px;
+}
+
+.modal-view-btn {
+  width: 144px;
 }
 
 /* Contact Section */
