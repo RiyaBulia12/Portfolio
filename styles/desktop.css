@@ -66,6 +66,11 @@
   .project-img {
     height: 100%;
     width: 100%;
+    object-fit: cover;
+  }
+
+  .modal-img-size {
+    height: 586px;
   }
 
   .project-container:nth-child(odd) .project-img-container {

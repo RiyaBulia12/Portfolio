@@ -144,7 +144,6 @@ ul {
 }
 
 .portfolio-card {
-
   flex-direction: column;
   align-items: center;
   padding: 114px 24px;
@@ -219,7 +218,7 @@ ul {
 .tags ul {
   justify-content: flex-start;
   align-items: flex-start;
-  margin:0;
+  margin: 0;
   padding: 0;
 }
 
@@ -270,6 +269,7 @@ ul {
   border: 1px solid var(--portfolio-border-color);
   border-radius: 16px;
 }
+
 #modal-header {
   border-bottom: 0;
 }
@@ -280,6 +280,10 @@ ul {
 
 #modal-body > .project-description {
   padding-top: 12px;
+}
+
+#project-img {
+  width: -webkit-fill-available;
 }
 
 #footer {
