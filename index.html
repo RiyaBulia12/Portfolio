@@ -74,7 +74,7 @@
             </div>
          </section>
 
-         <section class="portfolio-card" id="portfolio">
+         <section class="portfolio-card flex" id="portfolio">
             <div class="project-container">
                <div class="project-img-container">
                   <a href="#" aria-label="Tonic Project">
@@ -105,7 +105,59 @@
                      </ul>
                   </div>
                   <div class="btn-container">
-                     <button type="submit" class="view-btn">See Project</button>
+                     <button type="submit" class="view-btn" data-bs-toggle="modal" data-bs-target="#projectModal">See Project</button>
+                  </div>
+               </div>
+            </div>
+
+            <div class="modal fade" id="projectModal">
+               <div class="modal-dialog modal-xl" id="modal-dialog">
+                  <div class="modal-content" id="modal-content">
+                     <div class="modal-header" id="modal-header">
+                        <!-- <h2 class="modal-title project-title">Tonic</h2> -->
+                        <div class="project-title">
+                           <h2 class="modal-title">Tonic</h2>
+                        </div>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                     </div>
+                     <div class="modal-body" id="modal-body">
+                        <div class="project-info">
+                           <ul class="flex">
+                              <li class="client-name">Canopy</li>
+                              <li class="counter"></li>
+                              <li class="role">Back End Dev</li>
+                              <li class="counter"></li>
+                              <li class="year">2015</li>
+                           </ul>
+                        </div>
+                        <div class="project-img-container">
+                           <a href="#" aria-label="Tonic Project">
+                              <img src="images/project/tonic-project.png" alt="tonic-project" class="project-img">
+                           </a>
+                        </div>
+                        <div class="project-description col-xl-8">
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit natus consectetur tempore voluptatibus deserunt ea qui ratione, rem animi, similique temporibus fuga voluptas, architecto reprehenderit repellendus ut sunt reiciendis possimus.</p>
+                        </div>
+                        <div class="tags col-xl-4">
+                           <ul class="flex">
+                              <li>html</li>
+                              <li>css</li>
+                              <li>javascript</li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="footer flex" id="footer">
+                        <div class="btn-container">
+                           <button type="submit" class="view-btn">
+                              <span>See Live</span>
+                              <span><i class="bi bi-box-arrow-up-right"></i></span>
+                           </button>
+                           <button type="submit" class="view-btn">
+                              <span>Source</span>
+                              <span><i class="bi bi-github"></i></span>
+                           </button>
+                        </div>
+                     </div>
                   </div>
                </div>
             </div>
