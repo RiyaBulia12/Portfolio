@@ -144,7 +144,6 @@ ul {
 }
 
 .portfolio-card {
-  display: flex;
   flex-direction: column;
   align-items: center;
   padding: 114px 24px;
@@ -175,6 +174,7 @@ ul {
   column-gap: 12px;
   justify-content: flex-start;
   align-items: center;
+  padding: 0;
 }
 
 .project-title,
@@ -211,6 +211,10 @@ ul {
   font-weight: 400;
 }
 
+.project-description-container {
+  padding: 12px 0;
+}
+
 .tags {
   margin-bottom: 12px;
 }
@@ -218,6 +222,8 @@ ul {
 .tags ul {
   justify-content: flex-start;
   align-items: flex-start;
+  margin: 0;
+  padding: 0;
 }
 
 .tags ul li {
@@ -226,6 +232,7 @@ ul {
   padding: 4px 12px;
   border-radius: 8px;
   color: var(--main-theme-color);
+  font-size: 12px;
 }
 
 .btn-container {
@@ -235,7 +242,7 @@ ul {
 .view-btn {
   color: var(--btn-primary-color);
   border: 1px solid var(--main-theme-color);
-  padding: 12px;
+  padding: 14px 22px;
   align-items: center;
   border-radius: 8px;
   background-color: var(--white-color);
@@ -252,6 +259,38 @@ ul {
 .view-btn:hover {
   color: var(--white-color);
   background-color: var(--btn-primary-color);
+}
+
+/* Modal Section */
+#projectModal {
+  padding: 16px;
+  background-color: #c1c7d05b;
+  backdrop-filter: blur(1px);
+}
+
+#modal-content {
+  border: 1px solid var(--portfolio-border-color);
+  border-radius: 16px;
+}
+
+#modal-header {
+  border-bottom: 0;
+}
+
+#modal-body {
+  padding-top: 6px;
+}
+
+#modal-body > .project-description {
+  padding-top: 12px;
+}
+
+#project-img {
+  width: -webkit-fill-available;
+}
+
+#footer {
+  flex-direction: column;
 }
 
 /* About Section */
@@ -304,6 +343,10 @@ ul {
 .skill-content > ul > li > img {
   width: 48px;
   height: 48px;
+}
+
+.modal-view-btn {
+  width: 144px;
 }
 
 /* Contact Section */

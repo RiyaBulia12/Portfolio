@@ -24,6 +24,7 @@ if (screen.width <= 768) {
    }
    if(closeBtn)  {
       closeBtn.addEventListener('click', () => {
+         document.body.style.overflow = 'auto';
          closeNav();
       })
    }
