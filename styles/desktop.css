@@ -166,4 +166,8 @@
     border-radius: 0;
     width: 77%;
   }
+
+  .error {
+    width: 77%;
+  }
 }

@@ -1,202 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
 
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width initial-scale=1.0">
-      <title>Riya Bulia's Portfolio</title>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width initial-scale=1.0">
+   <title>Riya Bulia's Portfolio</title>
 
-      <!-- Stylesheets -->
-      <link rel="stylesheet" type="text/css" href="styles/main.css">
-      <link rel="stylesheet" type="text/css" href="styles/desktop.css" />
-      <link rel="stylesheet" type="text/css" href="styles/menu.css" />
+   <!-- Stylesheets -->
+   <link rel="stylesheet" type="text/css" href="styles/main.css">
+   <link rel="stylesheet" type="text/css" href="styles/desktop.css" />
+   <link rel="stylesheet" type="text/css" href="styles/menu.css" />
 
-      <!-- Poppins Google Fonts -->
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+   <!-- Poppins Google Fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-      <!-- Bootstrap CSS and Icons only -->
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+   <!-- Bootstrap CSS and Icons only -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
-   </head>
+</head>
 
-   <body>
-      <header class="header flex">
-         <div class="logo">
-            <a class="logo-text" href="#">My Logo</a>
+<body>
+   <header class="header flex">
+      <div class="logo">
+         <a class="logo-text" href="#">My Logo</a>
+      </div>
+      <nav class="menu-container">
+         <img class="menu-icon" src="images/icons/menu.png" alt="menu-button">
+         <div class="menu-overlay" id="menu">
+            <i class="bi bi-x close-icon"></i>
+            <ul class="menu-option">
+               <li><a href="#portfolio" class="option" aria-label="Portfolio">Portfolio</a></li>
+               <li><a href="#about" class="option">About</a></li>
+               <li><a href="#contact" class="option">Contact</a></li>
+            </ul>
          </div>
-         <nav class="menu-container">
-            <img class="menu-icon" src="images/icons/menu.png" alt="menu-button">
-            <div class="menu-overlay" id="menu">
-               <i class="bi bi-x close-icon"></i>
-               <ul class="menu-option">
-                  <li><a href="#portfolio" class="option" aria-label="Portfolio">Portfolio</a></li>
-                  <li><a href="#about" class="option">About</a></li>
-                  <li><a href="#contact" class="option">Contact</a></li>
-               </ul>
+
+      </nav>
+   </header>
+
+   <main class="main-content flex">
+      <section class="bio">
+         <h1 class="intro">I'm Riya<br />Glad to see you!</h1>
+         <p class="bio-desc">I’m a software developer! I can help you build a product, feature or website Look through
+            some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate
+            to contact me.</p>
+         <div class="social-media-container">
+            <h2 class="social-media-title">Let's Connect</h2>
+            <ul class="social-media-content flex">
+               <li>
+                  <a href="#" aria-label="Twitter Icon">
+                     <img class="social-media-icons" src="images/icons/twitter.png" alt="Twitter Icon">
+                  </a>
+               </li>
+               <li>
+                  <a href="#" aria-label="LinkedIn Icon">
+                     <img class="social-media-icons" src="images/icons/linkedin.png" alt="LinkedIn Icon">
+                  </a>
+               </li>
+               <li>
+                  <a href="#" aria-label="Media Icon">
+                     <img class="social-media-icons" src="images/icons/media.png" alt="Media Icon">
+                  </a>
+               </li>
+               <li>
+                  <a href="#" aria-label="Github Icon">
+                     <img class="social-media-icons" src="images/icons/github.png" alt="Github Icon">
+                  </a>
+               </li>
+               <li>
+                  <a href="#" aria-label="Victory Icon">
+                     <img class="social-media-icons" src="images/icons/victory.png" alt="Victory Icon">
+                  </a>
+               </li>
+            </ul>
+         </div>
+      </section>
+
+      <section class="portfolio-card flex" id="portfolio">
+      </section>
+
+      <div class="modal fade" id="projectModal">
+         <div class="modal-dialog modal-xl" id="modal-dialog">
+            <div class="modal-content" id="modal-content">
+               <section class="project-content"></section>
             </div>
+         </div>
+      </div>
 
-         </nav>
-      </header>
-
-      <main class="main-content flex">
-         <section class="bio">
-            <h1 class="intro">I'm Riya<br />Glad to see you!</h1>
-            <p class="bio-desc">I’m a software developer! I can help you build a product, feature or website Look through
-               some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate
-               to contact me.</p>
+      <section class="about-container" id="about">
+         <div class="about-myself flex">
+            <h2 class="intro">About Myself</h2>
+            <p class="bio-desc">Hello I’m a software developer! I can help you build a product , feature or website Look
+               through some of my work and experience! If you like what you see and have a project you need coded, don’t
+               hestiate to contact me.</p>
             <div class="social-media-container">
                <h2 class="social-media-title">Let's Connect</h2>
                <ul class="social-media-content flex">
-                  <li>
-                     <a href="#" aria-label="Twitter Icon">
-                        <img class="social-media-icons" src="images/icons/twitter.png" alt="Twitter Icon">
-                     </a>
-                  </li>
-                  <li>
-                     <a href="#" aria-label="LinkedIn Icon">
-                        <img class="social-media-icons" src="images/icons/linkedin.png" alt="LinkedIn Icon">
-                     </a>
-                  </li>
-                  <li>
-                     <a href="#" aria-label="Media Icon">
-                        <img class="social-media-icons" src="images/icons/media.png" alt="Media Icon">
-                     </a>
-                  </li>
-                  <li>
+                  <li class="about-myself-socials-li">
                      <a href="#" aria-label="Github Icon">
                         <img class="social-media-icons" src="images/icons/github.png" alt="Github Icon">
                      </a>
                   </li>
-                  <li>
+                  <li class="about-myself-socials-li">
+                     <a href="#" aria-label="LinkedIn Icon">
+                        <img class="social-media-icons" src="images/icons/linkedin.png" alt="LinkedIn Icon">
+                     </a>
+                  </li>
+                  <li class="about-myself-socials-li">
                      <a href="#" aria-label="Victory Icon">
                         <img class="social-media-icons" src="images/icons/victory.png" alt="Victory Icon">
                      </a>
                   </li>
+                  <li class="about-myself-socials-li">
+                     <a href="#" aria-label="Twitter Icon">
+                        <img class="social-media-icons" src="images/icons/twitter.png" alt="Twitter Icon">
+                     </a>
+                  </li>
+                  <li class="about-myself-socials-li">
+                     <a href="#" aria-label="Media Icon">
+                        <img alt="Media Icon" class="social-media-icons" src="images/icons/media.png">
+                     </a>
+                  </li>
                </ul>
-            </div>
-         </section>
-
-         <section class="portfolio-card flex" id="portfolio">
-         </section>
-
-         <div class="modal fade" id="projectModal">
-            <div class="modal-dialog modal-xl" id="modal-dialog">
-               <div class="modal-content" id="modal-content">
-                  <section class="project-content"></section>
+               <div class="btn-container">
+                  <button type="submit" class="view-btn">Get my resume</button>
                </div>
             </div>
          </div>
-
-         <section class="about-container" id="about">
-            <div class="about-myself flex">
-               <h2 class="intro">About Myself</h2>
-               <p class="bio-desc">Hello I’m a software developer! I can help you build a product , feature or website Look
-                  through some of my work and experience! If you like what you see and have a project you need coded, don’t
-                  hestiate to contact me.</p>
-               <div class="social-media-container">
-                  <h2 class="social-media-title">Let's Connect</h2>
-                  <ul class="social-media-content flex">
-                     <li class="about-myself-socials-li">
-                        <a href="#" aria-label="Github Icon">
-                           <img class="social-media-icons" src="images/icons/github.png" alt="Github Icon">
-                        </a>
+         <div class="skill-list-container">
+            <div class="skill-container">
+               <div class="skill-title flex">
+                  <h3>Languages</h3>
+                  <img src="images/icons/expanded.png" alt="expanded chevron">
+               </div>
+               <span class="separator"></span>
+               <div class="skill-content">
+                  <ul>
+                     <li class="flex">
+                        <img src="images/icons/js.png" alt="Javascript Icon">
+                        <p>JavaScript</p>
                      </li>
-                     <li class="about-myself-socials-li">
-                        <a href="#" aria-label="LinkedIn Icon">
-                           <img class="social-media-icons" src="images/icons/linkedin.png" alt="LinkedIn Icon">
-                        </a>
+                     <li class="flex">
+                        <img src="images/icons/html5.png" alt="HTML5 Icon">
+                        <p>HTML</p>
                      </li>
-                     <li class="about-myself-socials-li">
-                        <a href="#" aria-label="Victory Icon">
-                           <img class="social-media-icons" src="images/icons/victory.png" alt="Victory Icon">
-                        </a>
-                     </li>
-                     <li class="about-myself-socials-li">
-                        <a href="#" aria-label="Twitter Icon">
-                           <img class="social-media-icons" src="images/icons/twitter.png" alt="Twitter Icon">
-                        </a>
-                     </li>
-                     <li class="about-myself-socials-li">
-                        <a href="#" aria-label="Media Icon">
-                           <img alt="Media Icon" class="social-media-icons" src="images/icons/media.png">
-                        </a>
+                     <li class="flex">
+                        <img src="images/icons/css3.png" alt="CSS3 Icon">
+                        <p>CSS</p>
                      </li>
                   </ul>
-                  <div class="btn-container">
-                     <button type="submit" class="view-btn">Get my resume</button>
-                  </div>
                </div>
             </div>
-            <div class="skill-list-container">
-               <div class="skill-container">
-                  <div class="skill-title flex">
-                     <h3>Languages</h3>
-                     <img src="images/icons/expanded.png" alt="expanded chevron">
-                  </div>
-                  <span class="separator"></span>
-                  <div class="skill-content">
-                     <ul>
-                        <li class="flex">
-                           <img src="images/icons/js.png" alt="Javascript Icon">
-                           <p>JavaScript</p>
-                        </li>
-                        <li class="flex">
-                           <img src="images/icons/html5.png" alt="HTML5 Icon">
-                           <p>HTML</p>
-                        </li>
-                        <li class="flex">
-                           <img src="images/icons/css3.png" alt="CSS3 Icon">
-                           <p>CSS</p>
-                        </li>
-                     </ul>
-                  </div>
+            <div class="skill-container">
+               <div class="skill-title flex">
+                  <h3>Frameworks</h3>
+                  <img src="images/icons/collapsed.png" alt="collapsed chevron">
                </div>
-               <div class="skill-container">
-                  <div class="skill-title flex">
-                     <h3>Frameworks</h3>
-                     <img src="images/icons/collapsed.png" alt="collapsed chevron">
-                  </div>
-                  <span class="separator"></span>
-               </div>
-               <div class="skill-container">
-                  <div class="skill-title flex">
-                     <h3>Skills</h3>
-                     <img src="images/icons/collapsed.png" alt="collapsed chevron">
-                  </div>
-                  <span class="separator"></span>
-               </div>
+               <span class="separator"></span>
             </div>
-         </section>
-         <footer class="contact-container" id="contact">
-            <section class="contact-subcontainer flex">
-               <h2 class="contact-title">Contact me</h2>
-               <p class="contact-desc">If you have an application you are interested in developing, a feature that you need
+            <div class="skill-container">
+               <div class="skill-title flex">
+                  <h3>Skills</h3>
+                  <img src="images/icons/collapsed.png" alt="collapsed chevron">
+               </div>
+               <span class="separator"></span>
+            </div>
+         </div>
+      </section>
+      <footer class="contact-container" id="contact">
+         <section class="contact-subcontainer flex">
+            <h2 class="contact-title">Contact me</h2>
+            <p class="contact-desc">If you have an application you are interested in developing, a feature that you need
                built or a project that needs coding. I'd love to help with it </p>
-               <form class="contact-form flex" action="https://formspree.io/f/xknylojk" method="POST">
-                     <input type="text" aria-label="name" name="name" placeholder="Enter name" maxlength="30" required>
-                     <span class="error-message"></span>
-                     <input type="email" name="email" aria-label="email" placeholder="Enter email" required>
-                  <span class="error-message"></span>
-                  <textarea name="message" maxlength="500" placeholder="Write your message here" required></textarea>
-                  <span class="error-message"></span>
-                  <div class="btn-container">
-                     <button class="view-btn" type="submit" name="submit">Get It Touch</button>
-                  </div>
-               </form>
-            </section>
-         </footer>
-      </main>
+            <form class="contact-form flex" id="conatct-form" action="https://formspree.io/f/xknylojk" method="POST">
+               <input type="text" aria-label="name" id="firstName" name="name" placeholder="Enter name" maxlength="30"
+                  required>
+               <input type="email" name="email" id="email" aria-label="email" placeholder="Enter email" required>
+               <textarea name="message" id="message" maxlength="500" placeholder="Write your message here"
+                  required></textarea>
+               <div class="btn-container">
+                  <button class="view-btn" type="submit" name="submit">Get It Touch</button>
+               </div>
+               <span class="error"></span>
+            </form>
+         </section>
+      </footer>
+   </main>
 
 
-      <!-- Js files -->
-      <script rel="javascript" src="projects.js"></script>
-      <script rel="javascript" src="script.js"></script>
+   <!-- Js files -->
+   <script rel="javascript" src="projects.js"></script>
+   <script rel="javascript" src="script.js"></script>
 
-      <!-- JavaScript Bootstrap Bundle with Popper -->
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-   </body>
+   <!-- JavaScript Bootstrap Bundle with Popper -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"></script>
+</body>
 
 </html>
