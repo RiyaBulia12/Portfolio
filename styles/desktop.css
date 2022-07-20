@@ -120,7 +120,7 @@
     width: 97%;
   }
 
-  .skill-content>ul {
+  .skill-content > ul {
     display: flex;
     gap: 12px;
   }

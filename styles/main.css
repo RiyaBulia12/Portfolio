@@ -281,7 +281,7 @@ ul {
   padding-top: 6px;
 }
 
-#modal-body>.project-description {
+#modal-body > .project-description {
   padding-top: 12px;
 }
 
@@ -311,7 +311,7 @@ ul {
   padding: 8px;
 }
 
-.skill-title>h3 {
+.skill-title > h3 {
   font-size: 20px;
   font-weight: 500;
   margin: 10px 0;
@@ -328,11 +328,11 @@ ul {
   display: block;
 }
 
-.skill-content>ul {
+.skill-content > ul {
   padding: 0 8px;
 }
 
-.skill-content>ul>li {
+.skill-content > ul > li {
   background-color: var(--body-background-color);
   border-radius: 8px;
   padding: 9px 12px;
@@ -340,7 +340,7 @@ ul {
   column-gap: 16px;
 }
 
-.skill-content>ul>li>img {
+.skill-content > ul > li > img {
   width: 48px;
   height: 48px;
 }
