@@ -37,5 +37,7 @@ contactForm.addEventListener('click', function () {
    if (email !== email.toLowerCase()) {
       error.style.cssText = `visibility: visible; opacity: 1`;
       error.innerHTML = 'Please enter email in lowercase'
+   } else {
+      error.style.cssText = `visibility: hidden; opacity: 0`;
    }
 })
