@@ -91,7 +91,7 @@ document.querySelector('.portfolio-card').innerHTML = projects.map((project) =>
             <button type="submit" class="view-btn" data-bs-toggle="modal" data-bs-target="#projectModal" onclick="viewProject(${project.id})">See Project</button>
          </div>
       </div>
-   </div>`).join('');
+   </div>`);
 
 
 document.getElementsByClassName('.view-btn').onclick = function () { viewProject(this.id) };
@@ -147,5 +147,5 @@ function viewProject(id) {
 
          </div>`
       }
-   }).join('');
+   });
 }
