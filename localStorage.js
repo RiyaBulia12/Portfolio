@@ -17,5 +17,8 @@ window.onload = () => {
 }
 
 contactInfo.onchange = function () {
-
+   contactDetails.fullname = document.getElementById('fullname').value;
+   contactDetails.email = document.getElementById('email').value;
+   contactDetails.message = document.getElementById('message').value;
+   localStorage.setItem('contactDetails', JSON.stringify(contactDetails));
 }
