@@ -22,7 +22,7 @@ const projects = [
          year: 2022,
       },
       screenshot: 'images/desktop-version/to-do-list.png',
-      description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release`,
+      description: `"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.`,
       skills: ['html5', 'css3', 'javascript', 'es6', 'webpack'],
       liveLink: 'https://riyabulia12.github.io/To-do-list/dist/',
       sourceLink: 'https://github.com/RiyaBulia12/To-do-list'
