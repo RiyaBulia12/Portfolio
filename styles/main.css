@@ -205,6 +205,32 @@ ul {
   background-color: var(--dot-dolor);
 }
 
+.skill-title img {
+  margin-right: 18px;
+}
+
+.skill-content > ul {
+  padding: 0 8px;
+}
+
+.skill-content > ul > li {
+  background-color: var(--body-background-color);
+  border-radius: 8px;
+  padding: 9px 12px;
+  margin: 12px 0;
+  column-gap: 16px;
+}
+
+.project-container img {
+  width: 100%;
+  height: 200px;
+}
+
+.skill-content > ul > li > img {
+  width: 48px;
+  height: 48px;
+}
+
 .project-description {
   color: var(--sub-title-color);
   font-size: 15px;
@@ -213,6 +239,22 @@ ul {
 
 .project-description-container {
   padding: 12px 0;
+}
+
+.project-container:nth-child(1) img {
+  content: url(../images/project/awesome-book.png);
+}
+
+.project-container:nth-child(2) img {
+  content: url(../images/project/to-do-list.png);
+}
+
+.project-container:nth-child(3) img {
+  content: url(../images/desktop-version/project-3.png);
+}
+
+.project-container:nth-child(4) img {
+  content: url(../images/desktop-version/project-4.png);
 }
 
 .tags {
@@ -317,32 +359,11 @@ ul {
   margin: 10px 0;
 }
 
-.skill-title img {
-  margin-right: 18px;
-}
-
 .separator {
   border-bottom: 1px solid var(--separator-color);
   width: 100%;
   height: 1px;
   display: block;
-}
-
-.skill-content > ul {
-  padding: 0 8px;
-}
-
-.skill-content > ul > li {
-  background-color: var(--body-background-color);
-  border-radius: 8px;
-  padding: 9px 12px;
-  margin: 12px 0;
-  column-gap: 16px;
-}
-
-.skill-content > ul > li > img {
-  width: 48px;
-  height: 48px;
 }
 
 .modal-view-btn {
