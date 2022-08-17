@@ -85,22 +85,6 @@
     order: 1;
   }
 
-  .project-container:nth-child(1) img {
-    content: url(../images/desktop-version/project-1.png);
-  }
-
-  .project-container:nth-child(2) img {
-    content: url(../images/desktop-version/project-2.png);
-  }
-
-  .project-container:nth-child(3) img {
-    content: url(../images/desktop-version/project-3.png);
-  }
-
-  .project-container:nth-child(4) img {
-    content: url(../images/desktop-version/project-4.png);
-  }
-
   .project-description-container {
     display: grid;
     grid-template-columns: 1fr 0.5fr;

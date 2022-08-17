@@ -5,28 +5,25 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width initial-scale=1.0">
    <title>Riya Bulia's Portfolio</title>
-
    <!-- Stylesheets -->
    <link rel="stylesheet" type="text/css" href="styles/main.css">
    <link rel="stylesheet" type="text/css" href="styles/desktop.css" />
    <link rel="stylesheet" type="text/css" href="styles/menu.css" />
-
+   <link type="image/png" sizes="32x32" rel="icon" href="images/icons/favicon.png">
    <!-- Poppins Google Fonts -->
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
    <!-- Bootstrap CSS and Icons only -->
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-
 </head>
 
 <body>
    <header class="header flex">
       <div class="logo">
-         <a class="logo-text" href="#">My Logo</a>
+         <a class="logo-text" href="#"><img class="" src="images/icons/favicon.png" alt="Logo Icon"></a>
       </div>
       <nav class="menu-container">
          <img class="menu-icon" src="images/icons/menu.png" alt="menu-button">
@@ -38,10 +35,8 @@
                <li><a href="#contact" class="option">Contact</a></li>
             </ul>
          </div>
-
       </nav>
    </header>
-
    <main class="main-content flex">
       <section class="bio">
          <h1 class="intro">I'm Riya<br />Glad to see you!</h1>
@@ -49,40 +44,10 @@
             some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate
             to contact me.</p>
          <div class="social-media-container">
-            <h2 class="social-media-title">Let's Connect</h2>
-            <ul class="social-media-content flex">
-               <li>
-                  <a href="#" aria-label="Twitter Icon">
-                     <img class="social-media-icons" src="images/icons/twitter.png" alt="Twitter Icon">
-                  </a>
-               </li>
-               <li>
-                  <a href="#" aria-label="LinkedIn Icon">
-                     <img class="social-media-icons" src="images/icons/linkedin.png" alt="LinkedIn Icon">
-                  </a>
-               </li>
-               <li>
-                  <a href="#" aria-label="Media Icon">
-                     <img class="social-media-icons" src="images/icons/media.png" alt="Media Icon">
-                  </a>
-               </li>
-               <li>
-                  <a href="#" aria-label="Github Icon">
-                     <img class="social-media-icons" src="images/icons/github.png" alt="Github Icon">
-                  </a>
-               </li>
-               <li>
-                  <a href="#" aria-label="Victory Icon">
-                     <img class="social-media-icons" src="images/icons/victory.png" alt="Victory Icon">
-                  </a>
-               </li>
-            </ul>
          </div>
       </section>
-
       <section class="portfolio-card flex" id="portfolio">
       </section>
-
       <div class="modal fade" id="projectModal">
          <div class="modal-dialog modal-xl" id="modal-dialog">
             <div class="modal-content" id="modal-content">
@@ -90,7 +55,6 @@
             </div>
          </div>
       </div>
-
       <section class="about-container" id="about">
          <div class="about-myself flex">
             <h2 class="intro">About Myself</h2>
@@ -98,37 +62,9 @@
                through some of my work and experience! If you like what you see and have a project you need coded, don’t
                hestiate to contact me.</p>
             <div class="social-media-container">
-               <h2 class="social-media-title">Let's Connect</h2>
-               <ul class="social-media-content flex">
-                  <li class="about-myself-socials-li">
-                     <a href="#" aria-label="Github Icon">
-                        <img class="social-media-icons" src="images/icons/github.png" alt="Github Icon">
-                     </a>
-                  </li>
-                  <li class="about-myself-socials-li">
-                     <a href="#" aria-label="LinkedIn Icon">
-                        <img class="social-media-icons" src="images/icons/linkedin.png" alt="LinkedIn Icon">
-                     </a>
-                  </li>
-                  <li class="about-myself-socials-li">
-                     <a href="#" aria-label="Victory Icon">
-                        <img class="social-media-icons" src="images/icons/victory.png" alt="Victory Icon">
-                     </a>
-                  </li>
-                  <li class="about-myself-socials-li">
-                     <a href="#" aria-label="Twitter Icon">
-                        <img class="social-media-icons" src="images/icons/twitter.png" alt="Twitter Icon">
-                     </a>
-                  </li>
-                  <li class="about-myself-socials-li">
-                     <a href="#" aria-label="Media Icon">
-                        <img alt="Media Icon" class="social-media-icons" src="images/icons/media.png">
-                     </a>
-                  </li>
-               </ul>
-               <div class="btn-container">
-                  <button type="submit" class="view-btn">Get my resume</button>
-               </div>
+            </div>
+            <div class="btn-container">
+               <button type="submit" class="view-btn">Get my resume</button>
             </div>
          </div>
          <div class="skill-list-container">
@@ -183,20 +119,17 @@
                <textarea name="message" id="message" maxlength="500" placeholder="Write your message here"
                   required></textarea>
                <div class="btn-container">
-                  <button class="view-btn" type="submit" name="submit">Get It Touch</button>
+                  <button class="view-btn" type="submit" name="submit">Get In Touch</button>
                </div>
                <span class="error"></span>
             </form>
          </section>
       </footer>
    </main>
-
-
    <!-- Js files -->
-   <script rel="javascript" src="projects.js"></script>
+   <script rel="javascript" src="projects.js" type="module"></script>
    <script rel="javascript" src="script.js"></script>
    <script rel="javascript" src="localStorage.js"></script>
-
    <!-- JavaScript Bootstrap Bundle with Popper -->
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
