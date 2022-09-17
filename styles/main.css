@@ -276,6 +276,7 @@ ul {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.03em;
+  text-decoration: none;
   transition: color 100ms, background-color 100ms;
   -webkit-transition: color 100ms, background-color 100ms;
   -moz-transition: color 100ms, background-color 100ms;
