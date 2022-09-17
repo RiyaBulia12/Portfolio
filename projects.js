@@ -1,23 +1,65 @@
 const projects = [
    {
       id: 1,
-      title: 'Awesome Book App',
+      title: 'Pokilo',
       info: {
-         client: 'R.B.',
-         role: 'Front-End Dev',
+         client: 'R.B., Microverse',
+         role: 'Full Stack Dev',
          year: 2022,
       },
-      screenshot: 'images/desktop-version/awesome-book.png',
-      description: `Awesome books is a simple fully functional website that displays a list of books and allows you to add and remove books from that list. This application is built using Single Page Application concept where three links added on top of the page: List, Create and Contact. When the user clicks on any of the three links, the main area changes to display only one of the three content sections.`,
-      skills: ['html5', 'css3', 'javascript', 'es6'],
-      liveLink: 'https://riyabulia12.github.io/Awesome-Book/',
-      sourceLink: 'https://github.com/RiyaBulia12/Awesome-Book/'
+      screenshot: 'images/desktop-version/pokilo.png',
+      description: `Pokilo displays information about the Pokemons for which user can post likes and comments on each pokemon.`,
+      skills: ['html5', 'css3', 'bootstrap5', 'rest-api', 'es6'],
+      liveLink: 'https://riyabulia12.github.io/Pokilo/dist/',
+      sourceLink: 'https://github.com/RiyaBulia12/Pokilo'
    },
    {
-      id: 2,
-      title: 'To-Do List',
+      id: 3,
+      title: 'Math Magicians',
       info: {
-         client: 'R.B.',
+         client: 'R.B., Microverse',
+         role: '',
+         year: 2022,
+      },
+      screenshot: '',
+      description: `"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations & Read a random math-related quote.`,
+      skills: ['html', 'css', 'javascript', 'react', 'jest', 'es6'],
+      liveLink: 'https://moonlit-shortbread-872398.netlify.app/',
+      sourceLink: 'https://github.com/RiyaBulia12/Math-Magician'
+   },
+   {
+      id: 4,
+      title: 'To-Do List - React',
+      info: {
+         client: 'R.B., Microverse',
+         role: 'Full Stack Dev',
+         year: 2022,
+      },
+      screenshot: '',
+      description: `"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.`,
+      skills: ['html5', 'css3', 'bootstrap'],
+      liveLink: '',
+      sourceLink: 'https://github.com/RiyaBulia12/To-do-React'
+   },
+   {
+      id: 5,
+      title: 'Leaderboard',
+      info: {
+         client: 'R.B., Microverse',
+         role: 'Full Stack Dev',
+         year: 2022,
+      },
+      screenshot: 'images/desktop-version/leaderboard.png',
+      description: `The leaderboard website displays scores submitted by different players. It also allows you to submit your score.`,
+      skills: ['html5', 'css3', 'bootstrap', 'ES6'],
+      liveLink: 'https://riyabulia12.github.io/Leaderboard/dist/index.html',
+      sourceLink: 'https://github.com/RiyaBulia12/Leaderboard'
+   },
+   {
+      id: 6,
+      title: 'To-Do List : ES6',
+      info: {
+         client: 'R.B., Microverse',
          role: 'Full Stack Dev',
          year: 2022,
       },
@@ -28,33 +70,33 @@ const projects = [
       sourceLink: 'https://github.com/RiyaBulia12/To-do-list'
    },
    {
-      id: 3,
-      title: 'Facebook 360',
+      id: 7,
+      title: 'Awesome Book App',
       info: {
-         client: 'Facebook',
-         role: 'Full Stack Dev',
-         year: 2015,
+         client: 'R.B., Microverse',
+         role: 'Front-End Dev',
+         year: 2022,
       },
-      screenshot: 'images/desktop-version/project-3.png',
-      description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release`,
-      skills: ['html', 'css', 'Ruby on rails', 'javascript'],
-      liveLink: 'https://www.facebook.com/',
-      sourceLink: 'https://www.facebook.com/'
+      screenshot: 'images/desktop-version/awesome-book.png',
+      description: `Awesome books is a simple fully functional website that displays a list of books and allows you to add and remove books from that list. This application is built using Single Page Application concept where three links added on top of the page: List, Create and Contact. When the user clicks on any of the three links, the main area changes to display only one of the three content sections.`,
+      skills: ['html5', 'css3', 'javascript', 'es6'],
+      liveLink: 'https://riyabulia12.github.io/Awesome-Book/',
+      sourceLink: 'https://github.com/RiyaBulia12/Awesome-Book/'
    },
    {
-      id: 4,
-      title: 'Uber Navigation',
+      id: 8,
+      title: 'Microversity Spring Fest',
       info: {
-         client: 'Uber',
-         role: 'Lead Developer',
-         year: 2018,
+         client: 'R.B., Microverse',
+         role: 'Front-end Dev',
+         year: 2022,
       },
-      screenshot: 'images/desktop-version/project-4.png',
-      description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release`,
-      skills: ['html', 'css', 'javascript', 'Ruby on rails'],
-      liveLink: 'https://www.uber.com/',
-      sourceLink: 'https://www.uber.com/'
-   }
+      screenshot: 'images/desktop-version/microversity-fest.png',
+      description: `The project is based on an online website for a college cultural fest. It aids easy access to information related to all the events and allow hassle-free registration for students. The website is currently built with only two pages, Home and About, which gives enough idea about what the Microversity Folklore fiesta is, the location of the event and way to reach out in case of any query.`,
+      skills: ['html5', 'css3', 'bootstrap'],
+      liveLink: 'https://riyabulia12.github.io/Microversity-Spring-Fest/',
+      sourceLink: 'https://github.com/RiyaBulia12/Microversity-Spring-Fest'
+   },
 ]
 
 document.querySelector('.portfolio-card').innerHTML = projects.map((project) =>

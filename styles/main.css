@@ -241,22 +241,6 @@ ul {
   padding: 12px 0;
 }
 
-.project-container:nth-child(1) img {
-  content: url(../images/project/awesome-book.png);
-}
-
-.project-container:nth-child(2) img {
-  content: url(../images/project/to-do-list.png);
-}
-
-.project-container:nth-child(3) img {
-  content: url(../images/desktop-version/project-3.png);
-}
-
-.project-container:nth-child(4) img {
-  content: url(../images/desktop-version/project-4.png);
-}
-
 .tags {
   margin-bottom: 12px;
 }
