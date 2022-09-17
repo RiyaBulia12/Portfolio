@@ -14,6 +14,20 @@ const projects = [
       sourceLink: 'https://github.com/RiyaBulia12/Pokilo'
    },
    {
+      id: 2,
+      title: 'Book Store',
+      info: {
+         client: 'R.B., Microverse',
+         role: 'Full Stack Dev',
+         year: 2022,
+      },
+      screenshot: 'images/desktop-version/book-store.png',
+      description: `"Bookstore" is an MVP website that allows you to: display a list of books, add a book, remove a selected book.`,
+      skills: ['html5', 'css3', 'bootstrap', 'react', 'es6'],
+      liveLink: 'https://admirable-frangollo-a50203.netlify.app/',
+      sourceLink: 'https://github.com/RiyaBulia12/Book-Store'
+   },
+   {
       id: 3,
       title: 'Math Magicians',
       info: {
@@ -21,7 +35,7 @@ const projects = [
          role: '',
          year: 2022,
       },
-      screenshot: '',
+      screenshot: 'images/desktop-version/math-magician.png',
       description: `"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations & Read a random math-related quote.`,
       skills: ['html', 'css', 'javascript', 'react', 'jest', 'es6'],
       liveLink: 'https://moonlit-shortbread-872398.netlify.app/',
@@ -35,10 +49,10 @@ const projects = [
          role: 'Full Stack Dev',
          year: 2022,
       },
-      screenshot: '',
+      screenshot: 'images/desktop-version/to-do-react.png',
       description: `"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.`,
       skills: ['html5', 'css3', 'bootstrap'],
-      liveLink: '',
+      liveLink: 'https://musical-phoenix-72fec8.netlify.app/',
       sourceLink: 'https://github.com/RiyaBulia12/To-do-React'
    },
    {
@@ -52,7 +66,7 @@ const projects = [
       screenshot: 'images/desktop-version/leaderboard.png',
       description: `The leaderboard website displays scores submitted by different players. It also allows you to submit your score.`,
       skills: ['html5', 'css3', 'bootstrap', 'ES6'],
-      liveLink: 'https://riyabulia12.github.io/Leaderboard/dist/index.html',
+      liveLink: 'https://riyabulia12.github.io/Leaderboard/dist/',
       sourceLink: 'https://github.com/RiyaBulia12/Leaderboard'
    },
    {
@@ -77,7 +91,7 @@ const projects = [
          role: 'Front-End Dev',
          year: 2022,
       },
-      screenshot: 'images/desktop-version/awesome-book.png',
+      screenshot: 'images/desktop-version/awesome-book-1.png',
       description: `Awesome books is a simple fully functional website that displays a list of books and allows you to add and remove books from that list. This application is built using Single Page Application concept where three links added on top of the page: List, Create and Contact. When the user clicks on any of the three links, the main area changes to display only one of the three content sections.`,
       skills: ['html5', 'css3', 'javascript', 'es6'],
       liveLink: 'https://riyabulia12.github.io/Awesome-Book/',
