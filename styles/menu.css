@@ -1,7 +1,8 @@
 @media (max-width: 768px) {
-  .menu-icon{
+  .menu-icon {
     width: 24px;
   }
+
   .menu-overlay {
     display: none;
     width: 0%;

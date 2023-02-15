@@ -41,7 +41,7 @@ body {
 }
 
 .navbar-scroll {
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   transition: box-shadow 0.5s ease-in-out;
 }
 
@@ -78,7 +78,8 @@ body {
 .main-content {
   flex-direction: column;
 }
-.name{
+
+.name {
   color: var(--main-theme-color);
 }
 
@@ -145,10 +146,11 @@ ul {
   cursor: pointer;
 }
 
-.opaque{
+.opaque {
   opacity: 0.5;
 }
-.opaque:hover{
+
+.opaque:hover {
   opacity: 1;
 }
 
@@ -217,32 +219,34 @@ ul {
   border-radius: 10px;
   background-color: var(--dot-dolor);
 }
+
 #skill-card {
   border: none;
 }
 
 #collapse-chevron {
-    background: transparent;
-    border: none;
-    width: 2rem;
-    padding: 0;
-    margin: 0;
+  background: transparent;
+  border: none;
+  width: 2rem;
+  padding: 0;
+  margin: 0;
 }
 
 .collapse-icon {
   width: 70%;
-  transition: .3s transform ease-in-out;
+  transition: 0.3s transform ease-in-out;
   transform: rotate(0deg);
 }
 
 #collapse-chevron[aria-expanded=true] .collapse-icon {
- transition: .3s transform ease-in-out;
- transform: rotate(90deg);
+  transition: 0.3s transform ease-in-out;
+  transform: rotate(90deg);
 }
 
-#card-body{
+#card-body {
   padding: 0;
 }
+
 .skill-title img {
   margin-right: 18px;
 }
