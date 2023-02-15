@@ -28,6 +28,7 @@
   .option:hover,
   .option:focus {
     color: var(--main-theme-color);
+    transition: all 0.5s ease-out;
   }
 
   .bio {
@@ -72,12 +73,6 @@
     height: 100%;
     object-fit: contain;
   }
-
-  /* .project-img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  } */
 
   .modal-img-size {
     height: 100%;

@@ -37,6 +37,12 @@ body {
   background-color: var(--white-color);
   position: fixed;
   width: 100%;
+  z-index: 1;
+}
+
+.navbar-scroll {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.5s ease-in-out;
 }
 
 .logo {
@@ -55,6 +61,10 @@ body {
   animation: slidein 3s;
 }
 
+.logo-icon {
+  width: 30px;
+}
+
 .menu-container {
   padding: 8px;
 }
@@ -67,6 +77,9 @@ body {
 
 .main-content {
   flex-direction: column;
+}
+.name{
+  color: var(--main-theme-color);
 }
 
 .bio {
@@ -90,17 +103,8 @@ body {
   font-size: 2.5rem;
   font-weight: 700;
   line-height: 52px;
-  animation: slidein 3s;
-}
-
-@keyframes slidein {
-  from {
-    letter-spacing: 8px;
-  }
-
-  to {
-    letter-spacing: 1px;
-  }
+  transform: translateX(0%);
+  transition: transform 0.3s ease-in-out;
 }
 
 .bio-desc {
@@ -126,6 +130,8 @@ ul {
 }
 
 .social-media-icons {
+  width: 44px;
+  filter: grayscale(1);
   padding-right: 20px;
   transition: all 500ms ease-in;
   -webkit-transition: all 500ms ease-in;
@@ -139,8 +145,15 @@ ul {
   cursor: pointer;
 }
 
+.opaque{
+  opacity: 0.5;
+}
+.opaque:hover{
+  opacity: 1;
+}
+
 .social-media-icons:hover {
-  filter: opacity(0.5) drop-shadow(0 0 0 #396df2);
+  filter: grayscale(0);
 }
 
 .portfolio-card {
@@ -204,7 +217,32 @@ ul {
   border-radius: 10px;
   background-color: var(--dot-dolor);
 }
+#skill-card {
+  border: none;
+}
 
+#collapse-chevron {
+    background: transparent;
+    border: none;
+    width: 2rem;
+    padding: 0;
+    margin: 0;
+}
+
+.collapse-icon {
+  width: 70%;
+  transition: .3s transform ease-in-out;
+  transform: rotate(0deg);
+}
+
+#collapse-chevron[aria-expanded=true] .collapse-icon {
+ transition: .3s transform ease-in-out;
+ transform: rotate(90deg);
+}
+
+#card-body{
+  padding: 0;
+}
 .skill-title img {
   margin-right: 18px;
 }
