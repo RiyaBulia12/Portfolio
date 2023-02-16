@@ -290,17 +290,19 @@ ul {
 .tags ul {
   justify-content: flex-start;
   align-items: flex-start;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
 }
 
 .tags ul li {
   background-color: var(--tags-bg-color);
-  margin-right: 8px;
+  margin: 4px;
   padding: 4px 12px;
   border-radius: 8px;
   color: var(--main-theme-color);
   font-size: 12px;
+  font-weight: 500;
 }
 
 .btn-container {
