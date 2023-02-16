@@ -28,6 +28,7 @@
   .option:hover,
   .option:focus {
     color: var(--main-theme-color);
+    transition: all 0.5s ease-out;
   }
 
   .bio {
@@ -56,7 +57,6 @@
 
   .about-project {
     padding: 24px;
-    gap: 24px;
   }
 
   .tags ul {
@@ -64,20 +64,21 @@
   }
 
   .project-img-container {
-    padding: 0 24px;
+    padding: 64px 0;
   }
 
   .project-img-container img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: fill;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
   }
 
-  /* .project-img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  } */
+  .project-img-container img:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+  }
 
   .modal-img-size {
     height: 100%;
