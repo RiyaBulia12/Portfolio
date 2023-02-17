@@ -77,6 +77,7 @@ body {
 
 .main-content {
   flex-direction: column;
+  background-color: var(--body-background-color);
 }
 
 .name {

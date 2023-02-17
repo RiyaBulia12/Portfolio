@@ -10,7 +10,7 @@ function closeNav() {
 }
 
 window.addEventListener("scroll", function () {
-  if (window.scrollY > 0) {
+  if (window.scrollY > 100) {
     navbar.classList.add("navbar-scroll");
   } else {
     navbar.classList.remove("navbar-scroll");
