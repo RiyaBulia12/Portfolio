@@ -10,7 +10,7 @@ const projects = [
       screenshot: 'images/desktop-version/cargogo.png',
       description: `CarGoGo is an online platform that offers a user-friendly and efficient way for customers to rent cars. The website provides a range of vehicles that users can choose from, including sedans, SUVs, trucks, and luxury cars.
 
-      Once a customer has found a car that they like, CarGoGo makes it easy for them to favorite it. Customers can save or delte their favorite cars for future rentals. This feature is particularly useful for frequent travelers who prefer to rent the same car each time they travel.`,
+      Once a customer has found a car that they like, CarGoGo makes it easy for them to favorite it. Customers can save or delete their favorite cars for future rentals. This feature is particularly useful for frequent travelers who prefer to rent the same car each time they travel.`,
       skills: ['React', 'Redux', 'Rest API', 'Tailwindcss', 'Ruby on Rails', 'Postgresql'],
       liveLink: 'https://frabjous-profiterole-723fe2.netlify.app/',
       sourceLink: 'https://github.com/RiyaBulia12/Cargogo-front-end'
