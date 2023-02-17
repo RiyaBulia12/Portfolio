@@ -468,3 +468,61 @@ textarea {
   opacity: 0;
   transition: visibility 0s, opacity 0.5s linear;
 }
+
+.image-wrapper {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.image-wrapper img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.view-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  color: var(--white-color);
+  border: 1px solid var(--white-color);
+  background-color: transparent;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.view-button:hover {
+  color: var(--white-color);
+  background-color: var(--btn-primary-color);
+  border: 1px solid var(--btn-primary-color);
+}
+
+.image-wrapper:hover .overlay {
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+}
+
+.image-wrapper:hover .view-button {
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+}
+
+.image-wrapper:hover img {
+  border: 2px solid #fff;
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}

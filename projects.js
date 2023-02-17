@@ -146,9 +146,11 @@ const projects = [
 document.querySelector('.portfolio-card').innerHTML = projects.map((project) =>
    `<div class="project-container">
       <div class="project-img-container">
-         <a href="#" aria-label="Tonic Project">
-            <img src="${project.screenshot}" alt="tonic-project" class="project-img">
-         </a>
+         <div class="image-wrapper">
+            <img src="${project.screenshot}" alt="${project.title}" class="project-img">
+            <div class="overlay"></div>
+            <a href="${project.liveLink}" class="view-btn view-button">Live Demo</a>
+         </div>
       </div>
       <div class="about-project flex">
          <div class="project-title">
@@ -205,7 +207,7 @@ function viewProject(id) {
             </div>
             <div class="project-img-container modal-img-size">
                <a href="#" aria-label="Tonic Project">
-                  <img src="${project.screenshot}" alt="tonic-project" id="project-img" class="project-img">
+                  <img src="${project.screenshot}" alt="${project.title}" id="project-img" class="project-img">
                </a>
             </div>
             <div class="project-description-container">
