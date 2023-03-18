@@ -54,7 +54,7 @@ const projects = [
       screenshot: 'images/desktop-version/pokilo.png',
       description: `Pokilo displays information about the Pokemons for which user can post likes and comments on each pokemon.`,
       skills: ['HTML5', 'CSS3', 'Bootstrap5', 'REST API', 'ES6'],
-      liveLink: 'https://riyabulia12.github.io/Pokilo/dist/',
+      liveLink: 'https://pokilo.netlify.app/',
       sourceLink: 'https://github.com/RiyaBulia12/Pokilo'
    },
    {
