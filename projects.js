@@ -12,7 +12,7 @@ const projects = [
 
       Once a customer has found a car that they like, CarGoGo makes it easy for them to favorite it. Customers can save or delete their favorite cars for future rentals. This feature is particularly useful for frequent travelers who prefer to rent the same car each time they travel.`,
       skills: ['React', 'Redux', 'Rest API', 'Tailwindcss', 'Ruby on Rails', 'Postgresql'],
-      liveLink: 'https://frabjous-profiterole-723fe2.netlify.app/',
+      liveLink: 'https://cargogo-rental-app.netlify.app/',
       sourceLink: 'https://github.com/RiyaBulia12/Cargogo-front-end'
    },
    {
