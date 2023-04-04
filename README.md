@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# [Visit My Portfolio](https://riyabulia12.github.io/Portfolio/)
+# [Visit My Portfolio](https://riya-bulia.netlify.app/)
 
 # Welcome to Riya's Portfolio
 
