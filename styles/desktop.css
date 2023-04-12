@@ -32,7 +32,7 @@
   }
 
   .bio {
-    padding: 20% 18%;
+    padding: 15%;
     background-position: bottom;
     background-image: url('../images/desktop-version/desktop-background.png');
   }
@@ -72,12 +72,6 @@
     height: 100%;
     object-fit: fill;
     overflow: hidden;
-    transition: all 0.5s ease-in-out;
-  }
-
-  .project-img-container img:hover {
-    transform: scale(1.1);
-    transition: all 0.5s ease-in-out;
   }
 
   .modal-img-size {
@@ -99,7 +93,7 @@
   }
 
   .about-container {
-    grid-template-columns: 40% 1fr;
+    grid-template-columns: 50% 1fr;
     padding: 10%;
     gap: 25px;
   }

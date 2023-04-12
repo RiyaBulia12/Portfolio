@@ -10,7 +10,7 @@ const projects = [
       screenshot: 'images/desktop-version/cargogo.png',
       description: `CarGoGo is an online platform that offers a user-friendly and efficient way for customers to rent cars. The website provides a range of vehicles that users can choose from, including sedans, SUVs, trucks, and luxury cars.
 
-      Once a customer has found a car that they like, CarGoGo makes it easy for them to favorite it. Customers can save or delte their favorite cars for future rentals. This feature is particularly useful for frequent travelers who prefer to rent the same car each time they travel.`,
+      Once a customer has found a car that they like, CarGoGo makes it easy for them to favorite it. Customers can save or delete their favorite cars for future rentals. This feature is particularly useful for frequent travelers who prefer to rent the same car each time they travel.`,
       skills: ['React', 'Redux', 'Rest API', 'Tailwindcss', 'Ruby on Rails', 'Postgresql'],
       liveLink: 'https://cargogo-rental-app.netlify.app/',
       sourceLink: 'https://github.com/RiyaBulia12/Cargogo-front-end'
@@ -82,7 +82,7 @@ const projects = [
       screenshot: 'images/desktop-version/math-magician.png',
       description: `"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations & Read a random math-related quote.`,
       skills: ['html', 'css', 'JavaScript', 'React', 'jest', 'ES6'],
-      liveLink: 'https://moonlit-shortbread-872398.netlify.app/',
+      liveLink: 'https://riya-math-magician.netlify.app/',
       sourceLink: 'https://github.com/RiyaBulia12/Math-Magician'
    },
    {
@@ -146,9 +146,11 @@ const projects = [
 document.querySelector('.portfolio-card').innerHTML = projects.map((project) =>
    `<div class="project-container">
       <div class="project-img-container">
-         <a href="#" aria-label="Tonic Project">
-            <img src="${project.screenshot}" alt="tonic-project" class="project-img">
-         </a>
+         <div class="image-wrapper">
+            <img src="${project.screenshot}" alt="${project.title}" class="project-img">
+            <div class="overlay"></div>
+            <a href="${project.liveLink}" class="view-btn view-button">Live Demo</a>
+         </div>
       </div>
       <div class="about-project flex">
          <div class="project-title">
@@ -205,7 +207,7 @@ function viewProject(id) {
             </div>
             <div class="project-img-container modal-img-size">
                <a href="#" aria-label="Tonic Project">
-                  <img src="${project.screenshot}" alt="tonic-project" id="project-img" class="project-img">
+                  <img src="${project.screenshot}" alt="${project.title}" id="project-img" class="project-img">
                </a>
             </div>
             <div class="project-description-container">
